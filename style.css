@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(12, 20, 48);
+  /* background-image: linear-gradient(yellow, red ); */
+  /* background-image: linear-gradient(90deg, yellow, red); */
+  background-image: url(./images/bg-desktop.png);
+  background-position: center bottom;
+  padding: 17rem;
+  background-repeat: no-repeat;
+  font-family: "Raleway", sans-serif;
+  font-size: 0.7rem;
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.con-left {
+  /* border: 3px solid red; */
+  background-color: #1e2c69;
+  border-radius: 5px 80px 5px 5px;
+  width: 30vw;
+  height: 20vh;
+  margin: 2rem;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+.img1,
+.img2 {
+  padding: 1.5rem 0 0 1.5rem;
+}
+.img2 img {
+  width: 35px;
+  height: 30px;
+  margin-right: 7%;
+  padding: 3%;
+  background-color: hsl(229, 57%, 11%);
+  border-radius: 8px;
+}
+
+.con-right {
+  /* border: 3px solid red; */
+  background-color: #1e2c69;
+  border-radius: 5px;
+  width: 50vw;
+  height: 18vh;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+.bar-bos {
+  /* border: 3px solid red; */
+  background-color: #0f1b3d;
+  border-radius: 10px;
+  width: 30vw;
+  height: 2vh;
+  padding-left: 1.5rem;
+  margin-left: 1.5rem;
+}
+.bar-dolu {
+  /* border: 3px solid red; */
+  background-color: #fc5394;
+  border-radius: 10px;
+  width: 22vw;
+  height: 2vh;
+  margin: -1rem 0 0 1.5rem;
+}
+.bar-top {
+  /* border: 3px solid red; */
+  background-color: white;
+  border-radius: 50%;
+  width: 1.5vw;
+  height: 2vh;
+  margin: -1rem 0 0 18.5rem;
+}
+.bar-gb {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 3rem 5% 1.5rem;
+  font-size: 10px;
+}
+
+.con-right > p {
+  padding: 1.5rem;
+}
+
+.con-third {
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 15px 15px 0 15px;
+  border-
+  color: #24262e;
+  width: 12vw;
+  height: 7vh;
+  margin-left: -10rem;
+  margin-top: -10rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.con-third span {
+  font-size: 0.8rem;
+  font-weight: 100;
+}
