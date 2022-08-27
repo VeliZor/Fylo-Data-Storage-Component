@@ -1,31 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
   <title>Frontend Mentor | Fylo data storage component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
+
 <body>
+  <div class="container">
+    <div class="con-left">
+      <div class="img1">
+        <a href="#"><img src="./images/logo.svg" alt=""></a>
+      </div>
 
-  You’ve used 815 GB of your storage
+      <div class="img2">
+        <a href="#"><img src="./images/icon-document.svg" alt=""></a>
+        <a href="#"><img src="./images/icon-folder.svg" alt=""></a>
+        <a href="#"><img src="./images/icon-upload.svg" alt=""></a>
+      </div>
+    </div>
 
-  185 GB Left
-  
-  0 GB
-  1000 GB
-  
-  <div class="attribution">
+    <div class="con-right">
+      <p>
+        You’ve used 815 GB of your storage
+
+      </p>
+      <div>
+
+      </div>
+      <div class="bar-bos"></div>
+      <div class="bar-dolu"></div>
+      <div class="bar-top"></div>
+      <div class="bar-gb">
+        <p>0 GB</p>
+        <p>1000 GB</p>
+      </div>
+    </div>
+
+    <div class="con-third">
+      <p>
+        185 <span>GB Left</span>
+      </p>
+    </div>
+  </div>
+
+  <footer></footer>
+
+
+  <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div> -->
 </body>
+
 </html>
